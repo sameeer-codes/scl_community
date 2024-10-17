@@ -1,0 +1,58 @@
+.mainBody{
+    margin: 0px;
+    padding: 0px;
+    min-height: calc(100vh - (78px + 40px + 20px));
+}
+.header-container {
+    position: relative;
+    background-color: #000;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 20px;
+    max-width: 1280px;
+    margin: auto;
+    position: relative;
+    color: #fff;
+}
+
+.header .logo {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.header nav ul {
+    margin: 0;
+    gap: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.header nav ul li {
+    font-size: 18px;
+    list-style: none;
+    font-weight: 300;
+}
+
+.header a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.passwordContainer {
+    position: relative;
+}
+
+#passwordEye {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    cursor: pointer;
+}
+
+footer{
+    margin-top: 20px;
+}
